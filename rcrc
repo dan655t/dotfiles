@@ -1,0 +1,2 @@
+EXCLUDES="README.md run.sh"
+DOTFILES_DIRS="$HOME/dotfiles"
