@@ -1,2 +1,2 @@
 EXCLUDES="README.md run.sh settings.json"
-DOTFILES_DIRS="$HOME/dotfiles"git
+DOTFILES_DIRS="$HOME/dotfiles"

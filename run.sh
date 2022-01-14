@@ -1,13 +1,13 @@
-if ! command -v rcup &> /dev/null
-then
-    echo "rcup could not be found"
-    echo "please run the following:"
-    echo ""
-    echo "brew install rcm"
-    exit
+if ! command -v brew >/dev/null; then
+  echo "Installing Homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  brew tap homebrew/bundle
 fi
 
-ln -fs "$HOME/dotfiles/vscode/settings.json" "$HOME/Library/Application Support/Code/User"
+echo "Updating Homebrew..."
+brew update
+brew bundle --file=$HOME/dotfiles/Brewfile
 
-source rcrc
-rcup
+env RCRC=$HOME/dotfiles/rcrc rcup
+
+ln -fs "$HOME/dotfiles/vscode/settings.json" "$HOME/Library/Application Support/Code/User"
