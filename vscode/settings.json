@@ -2,6 +2,7 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.guides.bracketPairs": true,
     "editor.semanticHighlighting.enabled": true,
     "terminal.integrated.fontFamily": "'Source Code Pro'",
@@ -28,5 +29,5 @@
             "comments": false,
             "strings": true
         }
-    },
+    }
 }

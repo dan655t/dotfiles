@@ -7,7 +7,7 @@ then
     exit
 fi
 
-ln -fs "$HOME/dotfiles/.vscode/settings.json" "$HOME/Library/Application Support/Code/User"
+ln -fs "$HOME/dotfiles/vscode/settings.json" "$HOME/Library/Application Support/Code/User"
 
 source rcrc
 rcup
