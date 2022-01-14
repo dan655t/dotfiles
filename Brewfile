@@ -7,7 +7,6 @@ brew 'git'
 brew 'jq'
 brew 'rcm'
 
-cask 'docker'
 cask 'font-source-code-pro'
 cask 'iterm2'
 cask 'powershell'
