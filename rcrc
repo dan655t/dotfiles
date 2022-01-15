@@ -1,2 +1,2 @@
-EXCLUDES="README.md run.sh settings.json"
+EXCLUDES="Brewfile* README.md run.sh settings.json"
 DOTFILES_DIRS="$HOME/dotfiles"
