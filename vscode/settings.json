@@ -1,4 +1,5 @@
 {
+    "csharp.semanticHighlighting.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
