@@ -9,6 +9,7 @@
     "terminal.integrated.fontFamily": "'Source Code Pro'",
     "terminal.integrated.fontSize": 14,
     "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.useModernNet": true,
     "window.zoomLevel": -1,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
