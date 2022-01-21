@@ -5,6 +5,7 @@ tap 'homebrew/cask-fonts'
 
 brew 'awscli'
 brew 'git'
+brew 'htop'
 brew 'jq'
 brew 'rcm'
 
