@@ -7,6 +7,7 @@ brew 'awscli'
 brew 'git'
 brew 'htop'
 brew 'jq'
+brew 'node'
 brew 'rcm'
 
 cask 'font-source-code-pro'
