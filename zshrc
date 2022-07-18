@@ -108,5 +108,10 @@ if [ -f ~/google-cloud-sdk/completion.zsh.inc ]; then . ~/google-cloud-sdk/compl
 
 export USE_GKE_GCLOUD_AUTH_PLUGIN="True"
 
-source "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh"
 PROMPT='$(kube_ps1)'$PROMPT
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+source "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh"
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
