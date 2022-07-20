@@ -11,7 +11,6 @@
   "prettier.singleQuote": true,
   "terminal.integrated.fontFamily": "'Source Code Pro'",
   "terminal.integrated.fontSize": 14,
-  "window.zoomLevel": -1,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -34,6 +33,7 @@
     "editor.tabSize": 2
   },
   "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "keep",
@@ -42,5 +42,8 @@
       "comments": false,
       "strings": true
     }
-  }
+  },
+  "redhat.telemetry.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": -1
 }
