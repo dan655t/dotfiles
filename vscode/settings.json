@@ -20,7 +20,9 @@
     "editor.tabSize": 2
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -45,5 +47,15 @@
   },
   "redhat.telemetry.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.largeFileOptimizations": false,
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
   "window.zoomLevel": -1
 }
