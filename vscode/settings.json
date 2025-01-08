@@ -57,5 +57,7 @@
     "markdown": false,
     "scminput": false
   },
-  "window.zoomLevel": -1
+  "githubPullRequests.pullBranch": "never",
+  "window.zoomLevel": -1,
+  "github.copilot.editor.enableAutoCompletions": true
 }
