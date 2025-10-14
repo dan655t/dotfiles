@@ -12,6 +12,7 @@ brew 'kube-ps1'
 brew 'rcm'
 
 cask 'font-source-code-pro'
+cask 'ghostty'
 cask 'iterm2'
 cask 'postman'
 cask 'powershell'
